@@ -1,0 +1,75 @@
+---
+layout: post
+title: Reflection on Omeka Plugin Development Tutorials
+date: 2018-03-14 20:18:04.000000000 -05:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1633'
+  sbe_sent: '1'
+  _pingme: '1'
+  _encloseme: '1'
+author:
+  login: wanga3
+  email: wanga3@carleton.edu
+  display_name: wanga3
+  first_name: Alec
+  last_name: Wang
+---
+<p><a href="https://blogs.carleton.edu/dsinternship/files/2018/03/Screen-Shot-2018-03-14-at-3.17.09-PM-1klgu6x.png"><img class="alignnone size-medium wp-image-124" src="{{ site.baseurl }}/assets/Screen-Shot-2018-03-14-at-3.17.09-PM-1klgu6x-173x300.png" alt="" width="173" height="300" /></a></p>
+<p><span style="font-weight: 400;">INTRODUCTION:</span></p>
+<p><span style="font-weight: 400;">Omeka is an excellent platform for Digital Humanities projects and a potentially great starting point for individuals starting with PHP, Web Development, and Digital Humanities. However, so far my experience trying to work with plugin develop in Omeka using it’s existing documentation has been a struggle. Simpler language and elaboration on basic concepts would have made for an easier experience and let Omeka become more accessible so it may act as a springboard into the realm of Digital Humanities. This blog post overlays this overall impression of the Omeka plugin development tutorials and the general concepts I took away.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">TUTORIALS:</span></p>
+<p><span style="font-weight: 400;">In an attempt to gain a basic understanding of plugin development in Omeka, I reviewed these following Omeka tutorials:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Plugin Directory Structure</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Best Practices for Plugin Development</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understanding Hooks</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understanding Filters</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understanding Omeka_Plugin_AbstractPlugin</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">OVERALL IMPRESSIONS</span></p>
+<p><span style="font-weight: 400;">The tutorials taught me how some parts of Omeka works and some plugin design concepts. The examples that the tutorials used were extremely helpful for introducing new concepts. I found the Plugin Directory Structure tutorial with its simple language to be the most understandable of the tutorials, but most of the tutorials seem targeted to people who already possess an intermediate knowledge of Omeka. Thus, as a new user with a limited understanding of Omeka, learning plugin development from the tutorials has been a struggle for me.</span></p>
+<p><span style="font-weight: 400;">The main struggle I experienced with the tutorials came from the numerous unfamiliar terms and topics introduced and left undefined. These terms are either a technical term or Omeka terminology. One example of this is when the Understanding Hooks and Understanding Filters tutorials assume the user is familiar with using callback functions. As someone who just learned the basics of PHP, it took me awhile to wrap my head around the concept of callback functions and until I did, I couldn’t understand much about hooks and filters. A short description of what callback functions are, an example of one being used and a diagram of one in action would have improved the clarity of those two tutorials for new users like me.</span></p>
+<p><span style="font-weight: 400;">When the tutorials include Omeka terminology, such as views, options, forms, saving, and records, I could pick up their general meaning from context, but without a clear understanding of these basic concepts, the learning curve for these tutorials was much higher than needed. An Introduction To Omeka tutorial outlining Omeka’s basic design, describing necessary concepts, and defining key terminology would be invaluable for new users. In addition, a PHP For Omeka tutorial could help those with little PHP experience. Some diagrams showing Omeka’s general structure would be helpful for visual learners. Overall, if a section of the tutorials assumed the reader has minimal knowledge of both PHP and Omeka, new users could learn plugin development in Omeka with greater ease and Omeka would be more accessible as a learning platform for the Digital Humanities community.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">GENERAL IDEAS FROM TUTORIALS</span></p>
+<p><span style="font-weight: 400;">While not targeted towards new users, these tutorials do contain a surplus of useful information and these are the general ideas I took away from them:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">You start building a plugin by creating the folder that will contain your plugin </span><a href="https://en.wikipedia.org/wiki/INI_file"><span style="font-weight: 400;">ini file</span></a><span style="font-weight: 400;">, which contains general information about your plugin, and the other plugin files.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">When building a plugin you use </span><a href="http://omeka.readthedocs.io/en/latest/Reference/hooks/"><span style="font-weight: 400;">hooks</span></a><span style="font-weight: 400;"> and </span><a href="http://omeka.readthedocs.io/en/latest/Reference/filters/"><span style="font-weight: 400;">filters</span></a><span style="font-weight: 400;">.</span>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Hooks are a set of functions that send messages up through different parts of Omeka (see </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/understandingHooks.html"><span style="font-weight: 400;">Understanding Hooks</span></a><span style="font-weight: 400;">). They are activated at regular points in the Omeka code and you can add your own functions onto a preexisting hook so it will be called at those regular points in the code.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Filters modify information and like hooks are activated at regular points in the code (see </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/understandingFilters.html"><span style="font-weight: 400;">Understanding Filters</span></a><span style="font-weight: 400;">).</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">You can add your own functions calls in a filter to add data, such as adding an additional link to the </span><a href="http://omeka.readthedocs.io/en/latest/Reference/libraries/globals/nav.html"><span style="font-weight: 400;">navigation link array</span></a><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">When building a plugin, you’ll want to use </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/understandingOmeka_Plugin_AbstractPlugin.html"><span style="font-weight: 400;">Omeka’s AbstractPlugin class</span></a><span style="font-weight: 400;"> that keeps hooks and filters in sets of arrays and allows for different sets of options to customize the plugin class.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To query Omeka’s databases, you can use the </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/understandingOmeka_Db_Table.html"><span style="font-weight: 400;">Omeka_DB_Table</span></a><span style="font-weight: 400;"> class that returns the data as </span><a href="http://omeka.readthedocs.io/en/latest/Reference/libraries/Omeka/Record/AbstractRecord.html"><span style="font-weight: 400;">Omeka’s Record objects</span></a><span style="font-weight: 400;">.</span></li>
+</ul>
+<p><span style="font-weight: 400;">In short, Omeka uses on sets of functions called hooks and filters that are activated throughout the program. You can modify these for custom functionality. Omeka also has predesigned classes for its plugins, records, and database querying that you can use.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">GOING DEEPER: BEST PRACTICES</span></p>
+<p><span style="font-weight: 400;">Omeka lists a number of best practices in its </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/bestPracticesPlugins.html"><span style="font-weight: 400;">best practices in Omeka plugin development tutorial</span></a><span style="font-weight: 400;">. While the first couple of these are easy to understand for those with the briefest exposure to coding, they become more and more complex as you continue through the tutorial. This is what I took away when reading it.</span></p>
+<p><span style="font-weight: 400;">Some </span><a href="http://omeka.readthedocs.io/en/latest/Tutorials/bestPracticesPlugins.html"><span style="font-weight: 400;">best practices in Omeka plugin development</span></a><span style="font-weight: 400;"> include:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Make methods </span><a href="https://en.wikipedia.org/wiki/Camel_case"><span style="font-weight: 400;">camelCase</span></a><span style="font-weight: 400;"> and start private and protected methods with an underscore.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Be careful to not change standard Omeka behavior when overwriting methods.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use </span><a href="http://omeka.readthedocs.io/en/latest/Reference/views/helpers/"><span style="font-weight: 400;">View Helpers</span></a><span style="font-weight: 400;">, which are helper methods for the view class, instead of </span><a href="http://omeka.readthedocs.io/en/latest/Reference/packages/Function/"><span style="font-weight: 400;">global functions</span></a><span style="font-weight: 400;">, which pertain to the whole of the class.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Send all processes that may run longer than a typical web process to a job by creating a class that extends </span><a href="http://omeka.readthedocs.io/en/latest/Reference/libraries/Omeka/Job/AbstractJob.html"><span style="font-weight: 400;">Omeka_Job_AbstractJob</span></a><span style="font-weight: 400;"> and running a function from it. Either run using </span><i><span style="font-weight: 400;">default</span></i><span style="font-weight: 400;"> or </span><i><span style="font-weight: 400;">long-running </span></i><span style="font-weight: 400;">depending on how long it’ll take.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Set up your plugin’s configuration page using the framework Omeka provides for you. When a user installs or upgrades your plugin, Omeka redirects the user to the configuration page. The data the user submits on that page is sent as a </span><a href="http://php.net/manual/en/reserved.variables.post.php"><span style="font-weight: 400;">POST</span></a><span style="font-weight: 400;"> (an array of data from the submitted form). You can use the </span><a href="http://omeka.readthedocs.io/en/latest/Reference/hooks/config_form.html"><span style="font-weight: 400;">config_form hook</span></a><span style="font-weight: 400;"> to handle that POST and </span><a href="https://omeka.org/s/docs/user-manual/configuration/"><span style="font-weight: 400;">update the options or other settings</span></a><span style="font-weight: 400;">. You can keep the code to do this in a config_form.php include file.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Omeka lets you build </span><a href="http://omeka.readthedocs.io/en/latest/Reference/libraries/Omeka/Form/Admin.html#Omeka_Form_Admin"><span style="font-weight: 400;">forms</span></a><span style="font-weight: 400;"> for records with different options available.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use Omeka’s </span><a href="http://search_query_types"><span style="font-weight: 400;">search_query_types</span></a><span style="font-weight: 400;"> filter and the </span><a href="http://omeka.readthedocs.io/en/latest/Reference/hooks/search_sql.html"><span style="font-weight: 400;">search_sql</span></a><span style="font-weight: 400;"> hook to add a new search type to Omeka’s search form. This can make your record full-text searchable and customize it with three search query types: keyword (full text), boolean, and exact match.</span></li>
+</ol>
+<p><span style="font-weight: 400;">Overall, it seems to say that one ought to become familiar with classes and tools that Omeka provides and work with them in ways that are efficient and won’t disrupt the normal process of Omeka.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">ENDING SUMMARY</span></p>
+<p><span style="font-weight: 400;">Omeka is a powerful content management system for Digital Humanities project and could be a great starting point for those beginning Digital Humanities work with a slight shift in intended audience in the documentation. Currently it uses advanced language and it assumes a familiarity with programming concepts and Omeka terminology, but with a chance of language, elaboration on new concepts, and more references to other resources it could become much more accessible for new users. For those who are new users, the current tutorials do contain useful content even if they have a high learning curve. They explain the sets of functions called hooks and filters that Omeka activates throughout its files. They also introduce you to Omeka’s plugin, record, and database querying classes that you can use. In terms of best practices, one wants to become familiar with classes and tools that Omeka provides and use them efficiently while not disrupting Omeka’s the normal running process. Overall, it would be helpful for new users if the tutorial were more accessible, but even if they’re hard to comprehend, they still contain useful information.</span></p>
+<p>Alec Wang</p>
