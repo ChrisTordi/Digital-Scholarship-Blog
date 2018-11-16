@@ -1,4 +1,4 @@
-title:            Blog Title
+title:            DS Intern Blog
 description:      Describe your website here.
 
 # put your disqus here
@@ -20,22 +20,13 @@ url: https://christordi.github.io/Digital-Scholarship-Blog/
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
+  - title: 'About'
     url: '/tags'
-  - title: 'Categories'
+  - title: 'Bios'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
+  - title: 'Blog'
     url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
