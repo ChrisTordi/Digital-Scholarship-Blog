@@ -21,12 +21,12 @@ menu:
   - title: 'Home'
     url: '/'
   - title: 'Bios'
-    url: '/tags'
+    url: '/bios'
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
   - title: 'About'
-    url: '/about.md'
+    url: '/about'
 
 # Owner/author information
 owner:
