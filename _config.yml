@@ -20,13 +20,13 @@ url: https://christordi.github.io/Digital-Scholarship-Blog
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'About'
-    url: '/tags'
   - title: 'Bios'
+    url: '/tags'
+  - title: 'Categories'
     url: '/categories'
     type: 'categories'
-  - title: 'Blog'
-    url: '#'
+  - title: 'About'
+    url: '/about.md'
 
 # Owner/author information
 owner:

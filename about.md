@@ -4,33 +4,10 @@ title: About
 share: true
 ---
 
-# Neo-HPSTR Jekyll Theme
+# Digital Scholarship at Carleton
 
-Neo-HPSTR Jekyll is a responsive and modern blog template.
+**Digital Scholarship Intern** is a paid academic year term position jointly sponsored by the [Career Center](https://apps.carleton.edu/career/), [Academic Technology](https://apps.carleton.edu/campus/its/at/), [the Humanities Center](https://apps.carleton.edu/humanities/), and [the Library](https://apps.carleton.edu/campus/library/). We aim to hire **4 interns** each year.
 
-# Live Demo
+This is an excellent opportunity for students interested in gaining professional skills and learning more about the growing field of **digital scholarship**. This includes skills in **web development, accessibility and inclusive design, digital ethics and privacy**, as well as **project management methods and technologies (especially helpful for comps)**. Interns will work collaboratively on meaningful individual and group tasks that contribute to digital scholarship work being done across campus. They will receive supervision and ongoing professional mentoring from librarians, faculty, and academic technologists related to their learning goals.
 
-You can see it running [here](http://blog.rhesoft.com/) and [here](http://aronbordin.com/neo-hpstr-jekyll-theme/).
-
-
-## What Neo-HPSTR brings to the table:
-
-* Modern design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet topbar animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* Author panel, with social links
-* Read more tag support(similar with Wordpress ).
-
-![Preview](http://aronbordin.com/images/neo-hpstr-jekyll-theme-preview.png)
-
-
----
-
-## Getting Started
-
-Neo-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+Learn more about our [2018-2019](https://christordi.github.io/Digital-Scholarship-Blog/bios/) cohort!
