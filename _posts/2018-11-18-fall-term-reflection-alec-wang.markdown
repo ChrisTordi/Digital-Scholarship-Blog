@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Fall Term Reflection"
+date:   2018-11-18 23:58:57 -0500
+categories: [blog post, digital ethics, world usability day, plugins]
+author: Alec Wang
+---
+
+One of the things I’ve learned this term is to slow down and really think problems through. Last term I would try to just dive into a project and try different things until they’ve worked. This term, I’ve taken more time to really wrap the problem around in my brain before starting to code, which has helped my ability to complete things such as the DisplayPrivateExhibits plugin. During that project I was trying to figure out a way to access all the databases, since the built-in Omeka functions I was trying to use were only appearing when you were logged. However, instead of just diving deeper into the many functions that the were being called to generate the exhibits, I thought of a way to do what the functions were doing manually–by calling the database so that I could retrieve all of the exhibits based on their tags that were linked to them.
+
+By attending world usability day, I learned about the issues dealing with augmented reality and the issues of how it intrudes on everyday life and the responsibility that designers have when creating these augmented worlds. For instance, Pokemon go led to hundreds of deaths because pedestrians playing Pokemon Go and not paying attention were hit by cars, or drivers were playing it as they drove. Another issue is by how distracting and targeted augmented worlds can be such as in the video [HYPER-REALITY] (https://www.youtube.com/watch?v=YJg02ivYzSs&ab_channel=KeiichiMatsuda). Additionally, I learned about different ways that companies can be “creepy” and intrude on people’s lives.
+
+Another things I’ve learned is about different types of conferences and the types of presentations that are given at them. For instance, when looking for a talk about a particular topic, it is wise to find one given by an individual who works in the field, rather than one who has little experience in it. presentations can be very hands-on and targeted at individuals in industry or discuss a larger vaguer topic. I’ve also learned that by attending a liberal arts college and gaining skills at structuring ideas so that they are digestible will come in handy when I need to give a presentation.
+
+In addition, by working on the platform comparison criteria I learned about my work as a back-end web developer in a larger context. For instance, while it has a degree of accessibility, it is not on the same scale as Wordpress and Drupal. In addition, it has very low flexibility of its permissions when compared with a platform such as Mukurtu. However, Omeka is very good at what it does by focusing on its one particular job and doesn’t need to be configured very much as if it were a platform like Drupal. Additionally, I learned about how the history of web development, from static site generator to content management systems, and why static site generators are coming back. Their impact on the world of web development may be significant in certain contexts, such as blogging platforms, but their requirement of technical knowledge is fairly high. Moreover, the platform criteria exercise has given me a good opportunity to collaborate with others.
+
+In addition, my work at this internship has changed some of the ways I’ve been doing work outside of my job. For instance, when designing a program that models the growth of a tumor for my software design class, I had two different types of cells. Initially I had them as red and green because those colors have high contrast, but then I realized that that could be an issue for colorblind individuals using my program, so instead I used red and blue.
+
+Overall I feel that I have grown in terms of my ability to tackle coding problems, understand the larger context of my work, collaborate with others and think about ethical issues in technology.
